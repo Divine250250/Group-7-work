@@ -45,9 +45,9 @@ public class Exercise {
 
         //Question 2
 
-        Float length;
-        Float side;
-        Float area;
+        double length;
+        double side;
+        double area;
 
         Scanner input = new Scanner(System.in);
 
@@ -57,9 +57,9 @@ public class Exercise {
 
         side = 2*length *(Math.sin(Math.PI /5));
 
-        area = (5*Math.pow(side, 2))/(4*Math.tan(Math.PI /5))
+        area = (5*Math.pow(side, 2))/(4*Math.tan(Math.PI /5));
 
-        float roundedArea = String.format("%.2f",area);
+        double roundedArea = String.format("%.2f",area);
 
         System.out.println("The area of the pentagon is "+ roundedArea);
 
